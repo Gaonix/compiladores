@@ -40,7 +40,7 @@ public class Controller implements ActionListener, DocumentListener {
 	public void insertUpdate(DocumentEvent e) {
 		// TODO Auto-generated method stub
 		app.getConsola().setText("Agregando...");
-		
+//		app.getConsola().setText(app.getAux().getText());
 	}
 
 	@Override
